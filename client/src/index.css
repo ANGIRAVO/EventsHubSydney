@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Sydney-themed color palette */
+  --background: 0 0% 97%;
+  --foreground: 220 14.3% 4.1%;
+  
+  --muted: 210 5% 96%;
+  --muted-foreground: 220 5% 45%;
+  
+  --popover: 0 0% 100%;
+  --popover-foreground: 220 14.3% 4.1%;
+  
+  --card: 0 0% 100%;
+  --card-foreground: 220 14.3% 4.1%;
+  
+  --border: 220 6% 90%;
+  --input: 220 6% 90%;
+  
+  --primary: 207 90% 54%; /* Sydney Harbor Blue */
+  --primary-foreground: 210 100% 98%;
+  
+  --secondary: 28 100% 56%; /* Australian Sunset */
+  --secondary-foreground: 220 10% 4%;
+  
+  --accent: 354 70% 56%; /* Ticket Red */
+  --accent-foreground: 0 0% 100%;
+  
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 10% 98%;
+  
+  --ring: 207 90% 54%;
+  
+  /* Chart colors for data visualization */
+  --chart-1: 207 90% 54%;
+  --chart-2: 28 100% 56%;
+  --chart-3: 354 70% 56%;
+  --chart-4: 262 83% 58%;
+  --chart-5: 135 94% 39%;
+  
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 240 10% 4%;
+  --foreground: 0 0% 98%;
+  
+  --muted: 240 4% 16%;
+  --muted-foreground: 240 5% 65%;
+  
+  --popover: 240 10% 4%;
+  --popover-foreground: 0 0% 98%;
+  
+  --card: 240 10% 4%;
+  --card-foreground: 0 0% 98%;
+  
+  --border: 240 4% 16%;
+  --input: 240 4% 16%;
+  
+  --primary: 207 90% 54%; /* Sydney Harbor Blue */
+  --primary-foreground: 0 0% 100%;
+  
+  --secondary: 28 100% 56%; /* Australian Sunset */
+  --secondary-foreground: 0 0% 98%;
+  
+  --accent: 354 70% 56%; /* Ticket Red */
+  --accent-foreground: 0 0% 100%;
+  
+  --destructive: 0 63% 31%;
+  --destructive-foreground: 0 0% 98%;
+  
+  --ring: 240 5% 84%;
+  
+  /* Dark mode chart colors */
+  --chart-1: 207 90% 54%;
+  --chart-2: 28 100% 56%;
+  --chart-3: 354 70% 56%;
+  --chart-4: 262 83% 58%;
+  --chart-5: 135 94% 39%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+  
+  h1 {
+    @apply text-3xl md:text-5xl;
+  }
+  
+  h2 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  h3 {
+    @apply text-xl;
+  }
+}
