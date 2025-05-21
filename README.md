@@ -2,7 +2,8 @@
 
 **EventHubSydney** is a dynamic web application that automatically scrapes and displays the latest event listings in **Sydney, Australia**. Built to help locals and tourists explore concerts, festivals, food fairs, and more — all in one place.
 
-![EventHubSydney Banner](https://github.com/YOUR_USERNAME/eventhubsydney/raw/main/Screenshot%202025-05-21%20172928.png)
+![EventHubSydney Banner](https://github.com/user-attachments/assets/a24bf895-23ca-45ed-b5f4-fdd26115170d)
+
 
 ---
 
